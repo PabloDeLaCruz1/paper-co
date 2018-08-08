@@ -1,0 +1,115 @@
+.navbar-ul>li {
+    float: left;
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    justify-content: flex-end;
+
+}
+
+
+.navbar-url li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    justify-content: flex-end;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* #navbar-home {
+    justify-content: flex-start;
+} */
+.navbar-home-image-a {
+    align-content: flex-end;
+
+
+}
+#navbar-home-image {
+    align-content: flex-end;
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin: -16px;
+}
+
+#home-tittle {
+    text-align: center;
+    color: black;
+    text-shadow: 10px 10px 10px black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0%;
+}
+
+#project-tittle {
+    text-align: center;
+    color: white;
+    text-shadow: 10px 10px 10px white;
+    margin-bottom: 10px;
+    margin: 0px;
+    padding-top: 40px;
+}
+
+#main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    content: url("http://1.bp.blogspot.com/-cd8mtFzCGKE/UouL_bQE6HI/AAAAAAAABEU/blhM3muBKB4/s1600/Paper20131120_07.jpg");
+    box-shadow: 5px 5px 15px black;
+    height: 300px;
+    width: 400px;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0%;
+}
+
+/* Sections */
+
+section {
+    height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#projects-section {
+    background-image: url("https://img.getbg.net/upload/full/www.GetBg.net_Backgrounds_Crumpled_black_paper_082165_.jpg");
+}
+
+#home-section {
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HPOKFbR/crumpled-paper-as-background-stop-motion-animation_s39hbcho__F0000.png")
+}
+
+#links-section {
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HPOKFbR/crumpled-paper-as-background-stop-motion-animation_s39hbcho__F0000.png")
+}
+
+#about-us-section {
+    background-image: url("https://img.getbg.net/upload/full/www.GetBg.net_Backgrounds_Crumpled_black_paper_082165_.jpg");
+}
+
+/* #home-section {
+    background-image: url("https://vignette.wikia.nocookie.net/legendsofthemultiuniverse/images/0/05/Dark-galaxy-desktop-background.png/revision/latest?cb=20170507023824");
+
+}
+
+#projects-section {
+    background-image: url("https://ufotoday.com/assets/images/ui-ufotoday/background/bg-default-text.jpg?v=1");
+
+} */
