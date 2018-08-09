@@ -11,9 +11,7 @@ ul {
     overflow: hidden;
     background-color: #333;
     justify-content: flex-end;
-
 }
-
 
 .navbar-url li a {
     display: flex;
@@ -21,7 +19,6 @@ ul {
     text-align: center;
     padding: 14px 16px;
     justify-content: flex-end;
-
 }
 
 li a:hover {
@@ -31,11 +28,11 @@ li a:hover {
 /* #navbar-home {
     justify-content: flex-start;
 } */
+
 .navbar-home-image-a {
     align-content: flex-end;
-
-
 }
+
 #navbar-home-image {
     align-content: flex-end;
     width: 25%;
@@ -61,6 +58,14 @@ li a:hover {
     margin: 0px;
     padding-top: 40px;
 }
+#about-us-tittle {
+    text-align: center;
+    color: black;
+    text-shadow: 10px 10px 10px black;
+    margin-bottom: 10px;
+    margin: 0px;
+    padding-top: 40px;
+}
 
 #main-image {
     display: block;
@@ -81,47 +86,30 @@ body {
 /* Sections */
 
 section {
-    height: 600px;
+    min-height: 900px;
     width: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+
 #projects-section {
     background-image: url("https://img.getbg.net/upload/full/www.GetBg.net_Backgrounds_Crumpled_black_paper_082165_.jpg");
 }
 
 #home-section {
-    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HPOKFbR/crumpled-paper-as-background-stop-motion-animation_s39hbcho__F0000.png")
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HPOKFbR/crumpled-paper-as-background-stop-motion-animation_s39hbcho__F0000.png");
 }
 
-#links-section {
-    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HPOKFbR/crumpled-paper-as-background-stop-motion-animation_s39hbcho__F0000.png")
-}
 
 #about-us-section {
-    background-image: url("https://img.getbg.net/upload/full/www.GetBg.net_Backgrounds_Crumpled_black_paper_082165_.jpg");
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HPOKFbR/crumpled-paper-as-background-stop-motion-animation_s39hbcho__F0000.png");
+    
 }
-
-/* #home-section {
-    background-image: url("https://vignette.wikia.nocookie.net/legendsofthemultiuniverse/images/0/05/Dark-galaxy-desktop-background.png/revision/latest?cb=20170507023824");
-
-}
-
-#projects-section {
-    background-image: url("https://ufotoday.com/assets/images/ui-ufotoday/background/bg-default-text.jpg?v=1");
-
-} */
-
-
-
-
-
-
-
 
 /* Gallery */
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -130,13 +118,12 @@ section {
 
 .column {
     flex: 25%;
-    max-width: 25%;
     padding: 0 4px;
 }
 
 .column img {
     vertical-align: middle;
-    width: 100%;
+    width: 90%;
     height: 200px;
     margin: 20px;
 }
@@ -150,8 +137,89 @@ section {
 
 @media screen and (max-width: 600px) {
     .column {
-        -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
     }
 }
+/* 
+@keyframes move {
+    from {
+        wi
+    }
+    to {
+        background-color: yellow;
+    }
+} */
+
+/* Gallery stuff from w3 school */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+  .card > img {
+      width: 250px;
+  }
+  img:hover {
+      width: 100%;
+      height: 100%;
+  }
+  div>p {
+      color: black;
+  }
+  div>h2 {
+    color: black;
+  }
+  
